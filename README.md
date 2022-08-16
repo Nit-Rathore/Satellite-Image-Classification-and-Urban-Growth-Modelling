@@ -1,10 +1,9 @@
-# Satellite-Image-Classification
+# Produce LULC-Maps through satellite image classififcation
 Built an Artificial Neural Network which uses the Landsat-5 data along with it's classified image as training data and the model classifies into four classes of  built-up, vegetation, barren lands and water bodies. 
 
 We're using this classifier to generate Land-Use/Land-Cover (LULC) for the same season but different years, In this instance, I have used,
 1997 multispectral image of Bangalore data to generate a LULC map for 1998. 
-Another alterate method was tried where only a few samples are taken from 1997 to predict the entire classified image of the city in 1997 and 1998.
-The uploaded code here is only taking  
+Another alterate method was tried where only a few training samples were taken from 1997 instead of the entire classified image and was used to predict the classified image of the city in 1997 and 1998. Code uploaded here talks into consideration of the latter, although minor changes are needed to be done to use the former method to generate LULC maps 
 
 # Urban Growth Modelling
 Using the LULC maps, for various years, I built a Cellular automata model which predicts the built-up growth of the Delhi city in future years. 
