@@ -11,7 +11,7 @@ It takes input as the classified image, along with population density maps, road
 changes the cell value in the Matrix based on threshold values set.
 
 # Results 
--As the spectral reflectance of the sun changes every year, we need to measure the devaitions before using it to predict the LULC maps.
+-As the spectral reflectance of the sun changes every year, we need to measure the devaitions before using it to predict the LULC maps (plot and check the bands on ploty-chart studio)
 
 -This approach of prediction works only when the season is same, when we build the classifier for summer season and try to predict for winter season,
 the margin of error increases.
